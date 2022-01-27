@@ -20,7 +20,7 @@ namespace Module_4HW3
        public DbSet<CLients> Clients { get; set; }
         public ApplicationContext(DbContextOptions<ApplicationContext> options):base(options)
         {
-                Database.EnsureCreated();
+                //Database.EnsureCreated();
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -54,11 +54,11 @@ namespace Module_4HW3.Migrations
                 columns: new[] { "Project", "Budget", "ClientsId", "Name", "StartedDate", "Term" },
                 values: new object[,]
                 {
-                    { 1, 12000.0, 1, "First", new DateTime(2022, 1, 23, 14, 34, 23, 869, DateTimeKind.Local).AddTicks(9726), 21 },
-                    { 2, 14000.0, 1, "Second", new DateTime(2022, 1, 23, 14, 34, 23, 872, DateTimeKind.Local).AddTicks(6386), 30 },
-                    { 3, 20000.0, 1, "Third", new DateTime(2022, 1, 23, 14, 34, 23, 872, DateTimeKind.Local).AddTicks(6419), 50 },
-                    { 4, 30000.0, 1, "Fourth", new DateTime(2022, 1, 23, 14, 34, 23, 872, DateTimeKind.Local).AddTicks(6425), 14 },
-                    { 5, 10000.0, 2, "fifth", new DateTime(2022, 1, 23, 14, 34, 23, 872, DateTimeKind.Local).AddTicks(6429), 79 }
+                    { 1, 12000.0, 1, "First", new DateTime(2022, 1, 23, 15, 4, 12, 326, DateTimeKind.Local).AddTicks(7881), 21 },
+                    { 2, 14000.0, 1, "Second", new DateTime(2022, 1, 23, 15, 4, 12, 329, DateTimeKind.Local).AddTicks(8366), 30 },
+                    { 3, 20000.0, 1, "Third", new DateTime(2022, 1, 23, 15, 4, 12, 329, DateTimeKind.Local).AddTicks(8403), 50 },
+                    { 4, 30000.0, 1, "Fourth", new DateTime(2022, 1, 23, 15, 4, 12, 329, DateTimeKind.Local).AddTicks(8409), 14 },
+                    { 5, 10000.0, 2, "fifth", new DateTime(2022, 1, 23, 15, 4, 12, 329, DateTimeKind.Local).AddTicks(8412), 79 }
                 });
 
             migrationBuilder.CreateIndex(

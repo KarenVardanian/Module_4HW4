@@ -16,7 +16,6 @@ namespace Module4Hw3.Entities
         public List<EmployeeProject> EmployeeProjects { get; set; } = new List<EmployeeProject>();
         public int OfficeId { get; set; }
 
-       // public List<Project> Projects { get; set; } = new List<Project>();
         public List<Title> Titles { get; set; } = new List<Title>();
         public List<Office> Offices { get; set; } = new List<Office>();
     }

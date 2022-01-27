@@ -25,21 +25,19 @@ namespace Module_4HW3
 
 
     }
-    internal class Program
+    public class Program
     {
-        static  void Main(string[] args)
+        static async Task Main(string[] args)
         {
            
-            var path = new ServerSettings.Path();
-            var a=path.GetPath("Config.json");
-            var optionBuilde = new DbContextOptionsBuilder<ApplicationContext>();
-            var options = optionBuilde.UseSqlServer(a).Options;
-            using (ApplicationContext context = new ApplicationContext(options))
+            await using (var context = new SampleContextFactory().CreateDbContext(args))
             {
-                
-
+                // await new LINQ(context).LeftJoin();
+                // await new LINQ(context).CountTimeDiffernce();
+                // await new LINQ(context).AddToDB();
+                // await new LINQ(context).AddToDB();
+                // await new LINQ(context).UpdateDB();
             }
-          
         }
     }
 }

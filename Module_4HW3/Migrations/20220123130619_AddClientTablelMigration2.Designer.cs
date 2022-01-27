@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Module_4HW3;
 
 namespace Module_4HW3.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    partial class ApplicationContextModelSnapshot : ModelSnapshot
+    [Migration("20220123130619_AddClientTablelMigration2")]
+    partial class AddClientTablelMigration2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -305,7 +307,7 @@ namespace Module_4HW3.Migrations
                             Budget = 12000.0,
                             ClientsId = 1,
                             Name = "First",
-                            StartedDate = new DateTime(2022, 1, 27, 20, 34, 10, 329, DateTimeKind.Local).AddTicks(8077),
+                            StartedDate = new DateTime(2022, 1, 23, 15, 6, 18, 905, DateTimeKind.Local).AddTicks(3895),
                             Term = 21
                         },
                         new
@@ -314,7 +316,7 @@ namespace Module_4HW3.Migrations
                             Budget = 14000.0,
                             ClientsId = 1,
                             Name = "Second",
-                            StartedDate = new DateTime(2022, 1, 27, 20, 34, 10, 333, DateTimeKind.Local).AddTicks(324),
+                            StartedDate = new DateTime(2022, 1, 23, 15, 6, 18, 908, DateTimeKind.Local).AddTicks(913),
                             Term = 30
                         },
                         new
@@ -323,7 +325,7 @@ namespace Module_4HW3.Migrations
                             Budget = 20000.0,
                             ClientsId = 1,
                             Name = "Third",
-                            StartedDate = new DateTime(2022, 1, 27, 20, 34, 10, 333, DateTimeKind.Local).AddTicks(364),
+                            StartedDate = new DateTime(2022, 1, 23, 15, 6, 18, 908, DateTimeKind.Local).AddTicks(946),
                             Term = 50
                         },
                         new
@@ -332,7 +334,7 @@ namespace Module_4HW3.Migrations
                             Budget = 30000.0,
                             ClientsId = 1,
                             Name = "Fourth",
-                            StartedDate = new DateTime(2022, 1, 27, 20, 34, 10, 333, DateTimeKind.Local).AddTicks(370),
+                            StartedDate = new DateTime(2022, 1, 23, 15, 6, 18, 908, DateTimeKind.Local).AddTicks(952),
                             Term = 14
                         },
                         new
@@ -341,7 +343,7 @@ namespace Module_4HW3.Migrations
                             Budget = 10000.0,
                             ClientsId = 2,
                             Name = "fifth",
-                            StartedDate = new DateTime(2022, 1, 27, 20, 34, 10, 333, DateTimeKind.Local).AddTicks(373),
+                            StartedDate = new DateTime(2022, 1, 23, 15, 6, 18, 908, DateTimeKind.Local).AddTicks(955),
                             Term = 79
                         });
                 });

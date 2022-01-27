@@ -24,6 +24,7 @@ namespace Module_4HW3.EntitiesConfigurations
                 new CLients(){Id=2, Name="Ivan", Age=53 , LastName="Sidorov", Phone="380664832312" },
                 new CLients(){Id=3, Name="Petr", Age=36 , LastName="Begunenko", Phone="38099465312" },
                 new CLients(){Id=4, Name="Stepan", Age=18 , LastName="Petenko", Phone="380955831312" },
+                new CLients(){Id=6, Name="Stepan2", Age=18 , LastName="Petenko", Phone="380955831312" },
                 new CLients(){Id=5, Name="Nikolay", Age=67 , LastName="Sidorenko", Phone="380974837862" } }
                 );
 
